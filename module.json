@@ -10,7 +10,7 @@
   "description": "Compendium for Lonely Mountains - Dagger",
   "packs": [
       {
-          "name": "Dagger Actors",
+          "name": "lm-dag-actors",
           "label": "Dagger Actors",
           "type": "Actor",
           "system": "pf2e",
@@ -19,7 +19,7 @@
           "module": "daggerlonelymountains-fvtt"
       },
       {
-        "name": "lm-dag-actors",
+        "name": "lm-dag-heroes",
         "label": "Dagger Heroes",
         "type": "Actor",
         "system": "pf2e",
@@ -28,8 +28,8 @@
         "module": "daggerlonelymountains-fvtt"
       },
       {
-        "name": "lm-dag-actors",
-        "label": "lm-dag-actors",
+        "name": "lm-dag-monsters",
+        "label": "lm-dag-monsters",
         "type": "Actor",
         "system": "pf2e",
         "path": "packs/lm-dag-monsters.db",
@@ -120,5 +120,5 @@
 ],
   "manifest": "",
   "download": "",
-  "version": "0.1.4"
+  "version": "0.1.5"
 }
