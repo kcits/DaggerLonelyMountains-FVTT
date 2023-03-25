@@ -11,12 +11,30 @@
   "packs": [
       {
           "name": "lm-dag-actors",
-          "label": "lm-dag-actors",
+          "label": "Dagger Actors",
           "type": "Actor",
           "system": "pf2e",
           "path": "packs/lm-dag-actors.db",
           "entity": "Actor",
           "module": "daggerlonelymountains-fvtt"
+      },
+      {
+        "name": "lm-dag-actors",
+        "label": "Dagger Heroes",
+        "type": "Actor",
+        "system": "pf2e",
+        "path": "packs/lm-dag-heroes.db",
+        "entity": "Actor",
+        "module": "daggerlonelymountains-fvtt"
+      },
+      {
+        "name": "lm-dag-actors",
+        "label": "lm-dag-actors",
+        "type": "Actor",
+        "system": "pf2e",
+        "path": "packs/lm-dag-monsters.db",
+        "entity": "Actor",
+        "module": "daggerlonelymountains-fvtt"
       },
       {
           "name": "lm-dag-adventures",
@@ -102,5 +120,5 @@
 ],
   "manifest": "",
   "download": "",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
