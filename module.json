@@ -1,0 +1,106 @@
+{
+  "name": "daggerlonelymountains-fvtt",
+  "title": "DaggerLonelyMountains-FVTT",
+  "authors": [
+    {
+      "name": "Kcits",
+      "url": "https://github.com/kcits"
+    }
+    ],
+  "description": "Compendium for Lonely Mountains - Dagger",
+  "packs": [
+      {
+          "name": "lm-dag-actors",
+          "label": "lm-dag-actors",
+          "type": "Actor",
+          "system": "pf2e",
+          "path": "packs/lm-dag-actors.db",
+          "entity": "Actor",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-adventures",
+          "label": "lm-dag-adventures",
+          "type": "Adventure",
+          "system": "pf2e",
+          "path": "packs/lm-dag-adventures.db",
+          "entity": "Adventure",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-cards",
+          "label": "lm-dag-cards",
+          "type": "Cards",
+          "path": "packs/lm-dag-cards.db",
+          "entity": "Cards",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-items",
+          "label": "lm-dag-items",
+          "type": "Item",
+          "system": "pf2e",
+          "path": "packs/lm-dag-items.db",
+          "entity": "Item",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-journalentries",
+          "label": "lm-dag-journalentries",
+          "type": "JournalEntry",
+          "path": "packs/lm-dag-journalentries.db",
+          "entity": "JournalEntry",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-macros",
+          "label": "lm-dag-macros",
+          "type": "Macro",
+          "path": "packs/lm-dag-macros.db",
+          "entity": "Macro",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-playlists",
+          "label": "lm-dag-playlists",
+          "type": "Playlist",
+          "path": "packs/lm-dag-playlists.db",
+          "entity": "Playlist",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-rolltables",
+          "label": "lm-dag-rolltables",
+          "type": "RollTable",
+          "path": "packs/lm-dag-rolltables.db",
+          "entity": "RollTable",
+          "module": "daggerlonelymountains-fvtt"
+      },
+      {
+          "name": "lm-dag-scenes",
+          "label": "lm-dag-scenes",
+          "type": "Scene",
+          "path": "packs/lm-dag-scenes.db",
+          "entity": "Scene",
+          "module": "daggerlonelymountains-fvtt"
+      }
+  ],
+  "url": "https://github.com/kcits/LonelyMountains-FVVT",
+  "id": "daggerlonelymountains-fvtt",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+      "minimum": 10,
+      "verified": 10
+  },
+  "languages": [
+    {
+        "lang": "en",
+        "name": "English",
+        "path": "languages/en.json"
+    }
+],
+  "manifest": "",
+  "download": "",
+  "version": "0.1.1"
+}
