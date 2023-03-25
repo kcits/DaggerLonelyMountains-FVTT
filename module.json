@@ -10,7 +10,7 @@
   "description": "Compendium for Lonely Mountains - Dagger",
   "packs": [
       {
-          "name": "lm-dag-actors",
+          "name": "Dagger Actors",
           "label": "Dagger Actors",
           "type": "Actor",
           "system": "pf2e",
@@ -120,5 +120,5 @@
 ],
   "manifest": "",
   "download": "",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
